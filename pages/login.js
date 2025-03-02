@@ -1,4 +1,5 @@
 "use client";
+import  '@../app/globals.css'
 import { useState, useEffect } from "react";
 import { auth } from "../firebaseConfig";
 import { GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
