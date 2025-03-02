@@ -1,4 +1,6 @@
 "use client";
+ import '../app/globals.css'
+
 import { useState, useEffect } from "react";
 import { auth, db } from "../firebaseConfig";
 import { collection, addDoc, getDocs, serverTimestamp } from "firebase/firestore";
