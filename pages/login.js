@@ -9,7 +9,7 @@ export default function Auth() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
-    const [isSignUp, setIsSignUp] = useState(false);  // Toggle between login & signup
+    const [isSignUp, setIsSignUp] = useState(false); 
     const router = useRouter();
 
     useEffect(() => {
